@@ -18,7 +18,7 @@ variable "username" {
 }
 
 variable "password" {
-  default = "wipro@12345678"
+  description = "value of the password for the user"
 }
 
 variable "hostname" {

@@ -18,3 +18,6 @@ output "Public" {
  value = azurerm_public_ip.windows_terraform_pip[*].ip_address
 }
 
+output "username" {
+ value = azurerm_windows_virtual_machine.main[*].admin_username  
+}
