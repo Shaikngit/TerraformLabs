@@ -1,4 +1,4 @@
-vvariable "prefix" {
+variable "prefix" {
   description = "The prefix which should be used for all resources in this example"
   default = "linvmtf"
 }
@@ -130,3 +130,7 @@ variable "client_Id" {
     type = string
    
  }
+  variable "tenant_id" {
+    description = "tenant id"
+    type = string
+  }

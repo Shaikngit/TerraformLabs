@@ -65,12 +65,32 @@ resource "azurerm_lb_probe" "main" {
 }
 
 module "vm" {
-    source = "./linux_apache"
+    source = "github.com/Shaikngit/Terraformlabs//AzureVM_LinuxApache"
     prefix = var.prefix
     location = var.location
-    resourcegroup = var.prefix
+    resourcegroup = var.resourcegroup
+    username = var.username
+    password = var.password
+    hostname = var.hostname
+    image_publisher = var.image_publisher
+    image_offer = var.image_offer
+    image_sku = var.image_sku
+    image_version = var.image_version
+    VMSize = var.VMSize
     backendvmcount = var.backendvmcount
-
+    vnet_name = var.vnet_name
+    address_space = var.address_space
+    address_spaces = var.address_spaces
+    dns_servers = var.dns_servers
+    subnet_prefixes = var.subnet_prefixes
+    subnet_names = var.subnet_names
+    tags = var.tags
+    subnet_enforce_private_link_endpoint_network_policies = var.subnet_enforce_private_link_endpoint_network_policies
+    subnet_service_endpoints = var.subnet_service_endpoints
+    subId = var.subId
+    client_Id = var.client_Id
+    client_secret = var.client_secret
+    tenant_id = var.tenant_id
     }
 
 resource "azurerm_network_interface_backend_address_pool_association" "main" {
