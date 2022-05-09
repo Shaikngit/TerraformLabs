@@ -117,7 +117,7 @@ variable "subnet_service_endpoints" {
   default     = {}
 }
 
-/*
+/* Commented so that az cli credentails can be used for authentication
 variable "subId" {
     description = "subscription id"
     type = string

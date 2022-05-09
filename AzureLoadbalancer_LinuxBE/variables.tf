@@ -115,6 +115,7 @@ variable "subnet_service_endpoints" {
   type        = map(list(string))
   default     = {}
 }
+/*
 variable "subId" {
     description = "subscription id"
     type = string
@@ -136,4 +137,4 @@ variable "tenant_id" {
     type = string
    
  }
-
+*/

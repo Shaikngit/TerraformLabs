@@ -115,6 +115,8 @@ variable "subnet_service_endpoints" {
   type        = map(list(string))
   default     = {}
 }
+
+/* Commented for now so that az cli credentials can be used for authentication
 variable "subId" {
     description = "subscription id"
     type = string
@@ -134,3 +136,4 @@ variable "client_Id" {
     description = "tenant id"
     type = string
   }
+*/
