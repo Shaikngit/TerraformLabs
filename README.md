@@ -25,3 +25,4 @@ here is the List I have created
 2. Azure Linux VM with Apache 
 3. Azure Load Balancer with Windows & Linux VMs as backend 
 4. Azure Firewall with Jump server and Windows server 
+Test
