@@ -14,3 +14,6 @@ Azure Firewall uses a static public IP address for your virtual network resource
 The service is fully integrated with Azure Monitor for logging and analytics. Learn more at https://docs.microsoft.com/en-us/azure/firewall. Based off of ARM Template: https://github.com/Azure/azure-quickstart-templates/tree/master/101-azurefirewall-with-zones-sandbox 
 
 checking if GIT works or not 
+
+
+more read me file 
